@@ -1,0 +1,49 @@
+
+
+.modal-heading{
+    margin:0;
+    padding: 15px;
+  
+}
+
+.modal-heading>h3{
+    font-size: 14px;
+}
+
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin:auto;
+    margin-top: 80px;
+}
+
+.modal-text{
+    background-color: #8CBCB9;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    
+}
+
+.modal-para{
+    display: none;
+    padding: 20px;
+    font-size: 14px;;
+}
+
+
+.modal-wrapper{
+    margin-top:100px;
+}
+
+
+
+
+.open{
+    display: block;
+}
+
+.close{
+    display: none;
+}
+

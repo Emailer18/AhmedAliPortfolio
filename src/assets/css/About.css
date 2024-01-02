@@ -1,0 +1,147 @@
+
+.about-intro{
+    width:96%;
+    margin:auto;
+    background-color: #8CBCB9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.about-text{
+    font-size: 13px;
+}
+
+
+
+
+.about-container{
+    width: 96%;
+    margin: auto;
+    margin-top: 40px;
+   
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 25px;
+    padding: 20px;
+   
+
+}
+
+
+.personal{
+    color: rgba(235, 235, 235, 0.763);
+    font-size: 15px;
+    padding: 12px;
+    background-color: #172b45;
+    overflow: hidden;
+}
+
+.personal-image{
+    width: 35px;
+}
+
+.personal-heading{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-left: 10px ;
+    color: rgba(235, 235, 235, 0.763);
+    
+}
+
+.personal-heading-container{
+    display: flex;
+    align-items: center;
+}
+
+.particular-container{
+    margin-top: 25px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+
+}
+
+.particular-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+
+.particular{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+   
+}
+
+.particular-box{
+    padding:5px;
+    border: 1px solid whitesmoke;
+    font-size: 11px;
+    font-weight: lighter;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #30C5FF;
+    width: auto;
+    text-align: center;
+    margin: 5px;
+    
+    margin-top: 5px;
+
+}
+
+ .green{
+    box-shadow: 0 0 8px #4BB543;
+    border:2px solid #4BB543;
+    color: #4BB543;
+} 
+
+ .pink{
+    box-shadow: 0 0 8px #EF476F;
+    border:2px solid #EF476F;
+    color: #EF476F;
+}
+
+.yellow{
+    box-shadow: 0 0 8px #FFD166;
+    border:2px solid #FFD166;
+    color: #FFD166;
+}
+
+.blue{
+    box-shadow: 0 0 8px #30C5FF;
+    border:2px solid #30C5FF;
+    color: #30C5FF;
+} 
+
+.academics{
+    color: rgba(235, 235, 235, 0.763);
+    font-size: 15px;
+    padding: 12px;
+    background-color: #172b45;
+    overflow: hidden;
+}
+
+.green:hover, .blue:hover, .yellow:hover, .pink:hover, .particular-box:hover {
+    transition: .5s ease;
+    box-shadow: 0 0 10px;
+}
+
+@media screen and (min-width: 913px){
+    .about-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .particular{
+        justify-content: start;
+    }
+
+    .particular-box{
+        margin-left: 18px;
+    }
+        
+       
+}
