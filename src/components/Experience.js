@@ -8,7 +8,7 @@ import MCB from '../assets/images/company/mcb.png'
 import SC from '../assets/images/company/standard-chartered.png'
 import Ajman from '../assets/images/company/ajman.png'
 import Noor from '../assets/images/company/noor.png'
-import Libyan from '../assets/images/company/libyan.svg'
+import NUB from '../assets/images/company/nub.png'
 
 function Experience() {
   return (
@@ -70,10 +70,10 @@ function Experience() {
 
             <div className="experience"  data-aos='fade-left'>
               <div className="img-container">
-                <img src={Libyan}  alt="" className="exp-img sc-img" />
+                <img src={NUB}  alt="" className="exp-img sc-img" />
               </div>
               <div className="experience-text">
-                <h2 className='exp-company'>Libyan Qatari Bank</h2>
+                <h2 className='exp-company'>Nuran Bank</h2>
                <small> <h4 className='exp-position'><i>Mar 2013 - Feb 2014</i> ; Chief Operations Officer</h4></small>
               </div>
             </div>
