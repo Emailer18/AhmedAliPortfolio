@@ -28,7 +28,7 @@ function Intro() {
           <div className="socials-container">
             <ul>
             <a href="https://www.facebook.com/ahmed.usuf" target='_blank' rel='noreferrer'> <li className='social-img-item'><img className="social-img" src={Facebook} alt="" /></li></a> 
-            <a href="https://api.whatsapp.com/send/?phone=3008269878&text&type=phone_number&app_absent=0" ><li className='social-img-item'><img className="social-img" src={Whatsapp} alt="" /></li></a> 
+            <a href="https://api.whatsapp.com/send/?phone=%2B923008269878&text&type=phone_number&app_absent=0 "><li className='social-img-item'><img className="social-img" src={Whatsapp} alt="" /></li></a> 
             <a href="mailto:assarsmy@gmail.com"><li className='social-img-item'><img className="social-img" src={Mail} alt="" /></li></a>  
             </ul>
           </div>
